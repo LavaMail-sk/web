@@ -1,2 +1,2 @@
-# web
-Web LavaMailu *vo vývoji*
+# web dev
+Dev branch LavaMail webu
