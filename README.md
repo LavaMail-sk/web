@@ -1,2 +1,2 @@
 # web
-LavaMail web **vo vývoji**
+LavaMail web **(vo vývoji)**
