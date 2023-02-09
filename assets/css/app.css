@@ -38,7 +38,11 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 30px;
+  scroll-padding: 80px;
+}
+
+header.header {
+  margin-top: 50px;
 }
 
 header.grid {
@@ -56,4 +60,10 @@ article.feature header {
 
 footer {
   background-color: var(--card-sectionning-background-color);
+}
+
+nav.fixed {
+  position: fixed;
+  background-color: var(--background-color);
+  top: 0;
 }
