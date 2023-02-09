@@ -24,26 +24,27 @@
     <meta name="theme-color" content="#d81b60">
 </head>
 <body>
-    <nav class="container-fluid">
+    <nav class="container-fluid fixed">
         <ul>
-            <li><strong>LavaMail</strong></li>
+            <li><a href="#"><strong>LavaMail</strong></a></li>
         </ul>
         <ul>
             <li><a href="#vlastnosti">Vlastnosti</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+            <li><a href="#sluzby">Služby</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="o-nas.html">O nás</a></li>
             <li><a href="#" role="button">Administrácia</a></li>
         </ul>
     </nav>
 
-    <header class="grid container-fluid">
+    <header class="grid container-fluid header">
         <div class="container-fluid">
             <hgroup>
                 <h1>Emailové služby pre všetkých</h1>
-                <p>Ste jednotlivec alebo dobre rozbehnutá firma? Naše služby si zamilujete. Ponúkame 99,98% uptime, sme plne transparentný a open-source.</p>
+                <p>Nezáleží na tom, či ste jednotlivec alebo dobre rozbehnutá firma, naše služby si zamilujete. Ponúkame 99,98% uptime, sme plne transparentný a open-source.</p>
             </hgroup>
             <a href="#" role="button">Administrácia</a>
-            <a href="#" role="button" class="secondary">Zistiť viac</a>
+            <a href="#" role="button" class="outline">Zistiť viac</a>
         </div>
         <div class="image">
             <img src="assets/images/undraw_coding.svg" alt="">
@@ -91,6 +92,78 @@
                 </article>
             </div>
         </section>
+
+        <section id="sluzby">
+            <hgroup align="center">
+                <h2>Služby</h2>
+                <p><em>Čo ponúkame?</em></p>
+            </hgroup>
+            <hr width="50%">
+
+            <div class="grid">
+                <article class="feature">
+                    <header>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFN0lEQVR4nO2cTYhcRRDHO8b4gYrf2UzVy66GqBBFxMUPwoKKICJ6UNyDspmq2ZU9CCJ48eBhPYiIqCRBDyJ48BjEy2IQjEZQVGTVZXd2umZNDMREoiLGrxhjkpHeWZNJYrLz+vVMv7dbP6jjvO76V1X36+43bYyiKIqiKIqiKIqiKIqiKIqiKMpJzK6qrLNILwvQlAXaL8iNpWwW+VenhSC/5LTpWMLMrn3iXEF+0SIdie205NboHxeI6rrBc4KK3zCDyy3wO/Ed5EKYBd7qEjZYAAT5udhOSdEM+KlwAQD+PrpDWDAD3h4sABbou+gOYcEM+O2QAXgmukNYHLPAB2pItwcLQMOYZQI8JkCHYjsnuTcSC7zedIIabLjWAn0Q30nOnwEdskAv7Oqj80wncdVQx3LZIv0U3WnMh1nkT2ZWl6833aSajFwmwK9b5KNLVnig/Rb5yYYZO8vEopZU7rDINrYY0nWj8Vl8LDF5wI17FulZC3QwvjDcWQPaW0N+yOSRGeRrLNL70UXC8Da3B+aG3MuHLzJ5pmWS/nHRiA80WU/Kt5oiMdX76KVFn6Qt8AE3tE70j66IJuR2M3Z2DSr3S6ky4LI77e8tlu9yi5MCir/V9tBVaf2V0ugVAvS8AG0MMkkL0pvHOgb8oYXh67zOEoDHijFJ075aqfJIiPWRBfrcZMWV4YmZQQddWfqs+NxK2gUxlxmPfNQCveGGzrR+VZORtRZ526nPpCMmK2co0R21Uvkez2cOWuQfYot+vLLpGwG622d4dgsxQf7jdM/20edksRZyYMuOnqGVnpP0pqhHnPP7Nz6nV7US3yxIXy7UhslKW+UL/IvvklxKlQEBrsbYv/E5RN+5ZvTiZuLw4XbaSfv8UwVK5RR97LMpNdE/umKhUg4mfIZkscAPWKTdadozWfEpa5chkz1DF6Rtq95bWSNA73UuADReT8qYtl929TC4Ey6fNk1W/DONdkpC9/q0aV2mAe8JmPV76kn5wbT9cFVikUYF6Tfftk1WQmSdz4JkVx9dknWSzrJ/I1i+0b3HZ/U/bbv/05GQ4+7g8rTtW+D1AjTtUYGTkvAtadvbnQye79Y5Avx3CN9NVkINA/M2YUvU7/++Tb+3UXF/CvLTXsFGulOQ6yF9NjkLQPPzPeBN1SsfvzB1X3qGrnZ7NGfI+ndnVg33pX3u1MqRHgv8VnhfcxmAebGQv60j3+fTJ3cgIsCfNd+45r7U+NRvkjXLpEQjAvRzp/w0WelUx1psi3vN8+mbG5qc+fzWbSoK0Eed9s8UIACN44fb6cdtn0WfmyMs8F/d8C1zh7vRSfkvEMhf+by5tO1LqTJgkWa66VP2Tnexs9IySYc8ew2xplhCAeCmAe21WHk4a/9Dr6qXTgDwWEWMV0sbetP22+355OFPJYsgAJxqcZVu0aYBaKQRwSJ/XcfKbafNeqCbLNAXsUVfhBXArUE4bJFec6viE1bIyK+2e0iiAQg3NO1rWnyhl0wFSMFMA4AagOhZKFoB8YUQHYLiiyERTOcA1ABEz0LRCogvhOgQFF8MiWA6B6AGIHoWilZAfCFEh6D4YkgE0zkANQDRs1C0AuILIcUdgvJxtioFvVM0cwC6/SGTLCYDms5eAUAbozuCxTR3w3DmANSS4RvyeNgtOTenWbBbtOa+QsiBU1IkA95sQuHuQtbL+jhN9m8Lfn/0XBBy+u2N5MTmtAHeHFz8Vty4ZoFeaf5xTl9RxWkANO006frNiYqiKIqiKIqiKIqiKIqiKIqimCLwLyNi8x/zfGnkAAAAAElFTkSuQmCC">
+                    </header>
+
+                    <hgroup align="center">
+                        <h3>Email hosting</h3>
+                        <p>Bezplatný hosting pre Vaše emaily. Zahŕňa spravovanie cez prehľadnú administráciu, prehľadný webmail, možnosť použitia vlastného email klienta a možnosť vlastnej domény.</p>
+                    </hgroup>
+
+                    <footer>
+                        <a href="#" role="button">Začať</a>
+                        <a href="#" role="button" class="outline">Zistiť viac</a>
+                    </footer>
+                </article>
+                <article class="feature">
+                    <header>
+                        <img src="data:image/png;base64,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">
+                    </header>
+
+                    <hgroup align="center">
+                        <h3>Email forwarding (presmerovanie)</h3>
+                        <p>Bezplatné presmerovanie emailov. Neobmedzený počet cieľových adries, rýchle doručenie a vysoká dostupnosť.</p>
+                    </hgroup>
+
+                    <footer>
+                        <a href="#" role="button">Začať</a>
+                        <a href="#" role="button" class="outline">Zistiť viac</a>
+                    </footer>
+                </article>
+            </div>
+        </section>
+
+        <section id="faq">
+            <hgroup align="center">
+                <h2>FAQ</h2>
+                <p><em>Často kladené otázky</em></p>
+            </hgroup>
+            <hr width="50%">
+
+            <div class="container">
+                <details>
+                    <summary>Je to naozaj zadarmo?</summary>
+                    <p>Áno, nemáme žiadne skryté poplatky.</p>
+                </details>
+                <details>
+                    <summary>Ako dlho to bude zadarmo?</summary>
+                    <p>Navždy. Vieme, že každý si zaslúži mať pekný email, keď už zaplatil za doménu.</p>
+                </details>
+                <details>
+                    <summary>Ako dlho bude trvať prvé nastavenie služby?</summary>
+                    <p>Ak chcete použiť našu doménu (@lavamail.sk), zaberie Vám to najviac 5 minút. Ak chcete email na vlastnej doméne alebo presmerovanie emailov, záleží to od Vášho poskytovateľa DNS.</p>
+                </details>
+                <details>
+                    <summary>Ponúkate aj platené plány?</summary>
+                    <p>Zatiaľ nie, ale premýšľame nad tým. Platené plány by obsahovali viac miesta na emaily a lepšiu dostupnosť.</p>
+                </details>
+                <details>
+                    <summary>Kde môžem vidieť aktuálny status Vašich služieb?</summary>
+                    <p>Status našich služieb nájdete na adrese <a href="https://status.lavamail.sk">status.lavamail.sk</a>.</p>
+                </details>
+            </div>
+        </section>
     </main>
 
     <footer class="grid container-fluid gray">
@@ -102,6 +175,13 @@
             <ul>
                 <li><a href="#">Zmluvné podmienky</a></li>
                 <li><a href="#">Zásady ochrany osobných údajov</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>Produkt</p>
+            <ul>
+                <li><a href="#">Status</a></li>
+                <li><a href="#">Wiki</a></li>
             </ul>
         </div>
         <div>
